@@ -10,3 +10,4 @@ cat wages.csv|awk -F, '$3=="12"'|wc -l
 cat wages.csv|awk -F, '$3=="16"'|wc -l
 cat wages.csv|awk -F, '$3=="12"'|awk -F, '{ sum += $4 }; END { print sum }'
 cat wages.csv|awk -F, '$3=="16"'|awk -F, '{ sum += $4 }; END { print sum }'
+e
